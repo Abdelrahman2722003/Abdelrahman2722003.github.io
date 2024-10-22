@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    direction: rtl;
+    text-align: center;
+    padding: 20px;
+}
+
+.schedule-container {
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+.schedule {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    text-align: center;
+}
+
+.schedule th, 
+.schedule td {
+    border: 1px solid #ddd;
+    padding: 20px;
+    font-size: 16px;
+}
+
+thead th {
+    background-color: #429645;
+    color: white;
+}
+
+.subject {
+    position: relative;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.hardware {
+    background-color: #bba046;
+}
+
+.web {
+    background-color: #3776a0;
+}
+
+.programming {
+    background-color: #7a3131;
+}
+
+.time {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.time-slot {
+    background-color: #e1e1e1;
+    font-weight: bold;
+}
